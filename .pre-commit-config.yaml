@@ -11,7 +11,7 @@ ci:
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: "v4.6.0"
+  rev: "v5.0.0"
   hooks:
   - id: check-added-large-files
   - id: check-case-conflict
@@ -27,7 +27,7 @@ repos:
   - id: trailing-whitespace
 
 - repo: https://github.com/pre-commit/mirrors-clang-format
-  rev: v18.1.4
+  rev: v19.1.7
   hooks:
   - id: clang-format
     types_or: [c++]
